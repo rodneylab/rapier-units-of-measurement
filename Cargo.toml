@@ -1,0 +1,19 @@
+[package]
+name = "rapier-units-of-measurement"
+version = "0.1.0"
+edition = "2021"
+license = "BSD-3-Clause"
+repository = "https://github.com/rapier-example"
+# macroquad 0.3.26 requires MSRV 1.73
+rust-version = "1.73"
+description = "Rapier Physics with Units of Measurement 📏 leveraging the Rust type system for SI units for Rust game dev physical properties ⏲️."
+
+[dependencies]
+crossbeam = "0.8.4"
+egui = "0.21.0"
+egui-macroquad = "0.15"
+macroquad = { version = "0.3.26", default-features = false }
+rand = "0.8.5"
+rand_distr = "0.4.3"
+rapier2d = { version = "0.18.0", features = ["simd-stable"] }
+uom = "0.36.0"
