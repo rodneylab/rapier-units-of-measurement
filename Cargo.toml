@@ -10,7 +10,7 @@ description = "Rapier Physics with Units of Measurement 📏 leveraging the Rust
 
 [dependencies]
 crossbeam = "0.8.4"
-egui = "0.21.0"
+egui = "0.28.1"
 egui-macroquad = "0.15"
 macroquad = { version = "0.3.26", default-features = false }
 rand = "0.8.5"
