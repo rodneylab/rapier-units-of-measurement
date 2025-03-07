@@ -3,8 +3,8 @@ name = "rapier-units-of-measurement"
 version = "0.1.0"
 edition = "2021"
 license = "BSD-3-Clause"
-repository = "https://github.com/rapier-units-of-measurement"
-# rapier2d 0.18.0 requires MSRV 1.74
+repository = "https://github.com/rodneylab/rapier-units-of-measurement"
+# rapier2d 0.23.1 requires MSRV 1.81
 rust-version = "1.81"
 description = "Rapier Physics with Units of Measurement 📏 leveraging the Rust type system for SI units for Rust game dev physical properties ⏲️."
 
